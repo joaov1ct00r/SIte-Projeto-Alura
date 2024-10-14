@@ -1,0 +1,1187 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family:'raleway','sans-serif';
+}
+
+body{
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+}
+section,footer {
+    padding: 54px 0px;
+    
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    color: #0000009c;
+}
+
+.nome-secundario{
+    display: none;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 86px;
+    align-items: center;
+    padding: 0 5%;
+ 
+    
+}
+
+
+nav{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.meu-nome{
+    display: flex;
+    align-items: start;
+    margin-right: 90px;
+}
+
+nav ul{
+    display: flex;
+    margin: 20px 20px 20px 150px;
+    gap: 32px;
+}
+
+nav ul a{
+    display: flex;
+    color: black;
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    
+    
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 5%;
+    width: 1136px;
+    height: 368px;
+
+}
+
+.banner-text{
+    display: flex;
+    width: 100%;
+    height: 246px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ul2 {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.link-cont {
+    margin-right: 10px;
+}
+
+.alinhar-link{
+    display:flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.img{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 368px;
+    height:368px;
+    
+}
+
+.tela2{
+    display: flex;
+    height: 383px;
+    background-color: #eaf2fd;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content-tela2{
+    width: 1316px;
+    height: 255px;
+    margin-left: 180px;
+}
+
+.title-sobre-mim{
+    font-size: 32px;
+    
+}
+
+.content-paragrafo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 751px;
+    height: 133px;
+    font-size: 16px;
+}
+
+.tela3 h2{
+    text-align: center;
+
+}
+
+
+.selection-aba1{
+    display: flex;
+}
+
+.selection-aba1{
+    display: flex;
+    width: 1136px;
+    height: 244px;
+    margin: auto;
+}
+
+.selection-aba2{
+    display: flex;
+}
+
+.selection-aba2{
+    display: flex;
+    width: 1136px;
+    height: 244px;
+    margin: auto;
+}
+
+.ul3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    gap: 32px;
+}
+
+.selection-aba h2{
+    display: flex;
+    align-items: start;
+    text-align: center;
+}
+
+.tela4{
+    width: 100%;
+    background-color: #eaf2fd;
+    
+    
+}
+
+.tela4 h2{
+    text-align: center;
+
+
+}
+
+.list-formacao{
+    display:flex;
+    width: 1136px;
+    height: 347px;
+    margin: auto;
+    gap: 10px;
+}
+
+
+.curso-item{
+    display: flex;
+    text-align: center;
+}
+
+.alinhamento_cursos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-left: 200px;
+}
+
+.fundo-experiencia{
+    height: 1486px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.fundo-experiencia h2{
+    text-align: center;
+    
+}
+
+.experiencia1{
+    margin: auto;
+    display: flex;
+    width: 1136px;
+    height: 406px;
+}
+
+.imagem-formacao1{
+    width: 752px;
+    height: 406px;
+    
+}
+
+.paragrafo-formacao{
+    display: flex;
+    width: 348px;
+    height: 112px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: auto;
+}
+
+.link-formacao{
+    display: flex;
+    gap: 10px;
+}
+
+.experiencia2{
+    margin: auto;
+    display: flex;
+    width: 1136px;
+    height: 406px;
+    right: 80px;
+    flex-direction: row-reverse;
+}
+
+.experiencia3{
+    margin: auto;
+    display: flex;
+    width: 1136px;
+    height: 406px;
+    right: 80px;
+}
+
+.button-formacao{
+    width: 105px;
+    height: 51px;
+    border:none;
+    border-radius:8px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1) ;
+    transition: background-color 0.3 ease;
+    background-color:white;
+    
+}
+
+.button-formacao:hover {
+    background-color: #2A7AE4;
+}
+
+.tela5{
+    background-color: #eaf2fd;
+}
+
+.ultima{
+    display: flex;
+    width:1136px;
+    height: 600px;
+    margin: auto;
+    gap: 16px;
+    
+}
+
+.formulario{
+    display: flex;
+    width: 656px;
+    height: 596px;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.campo-texto{
+    width: 656px;
+    height: 56px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.campo-texto2{
+    width: 656px;
+    height: 397px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.campo-botao{
+    width: 165px;
+    height: 51px;
+    background-color: #2A7AE4;
+}
+
+.rodape{
+    width:100%;
+    height:80px;
+    margin: auto;
+    font-size: 16px;
+    
+}
+
+@media(max-width:768px){
+    
+    body{
+        display: flex;
+        width: 100%;
+        height: 210px;        
+    }
+
+    .container{
+        width: 100%;
+        height: 56px;
+
+    }
+
+    nav ul{
+        display: none;
+    }
+    
+    .meu-nome{
+        width: 768px;
+        height: 52px;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nome-secundario{
+        display: flex;
+    }
+    
+
+    .banner{
+        width: 100%;
+        height: 210px;
+    }
+
+    .banner-text{
+        display: flex;
+        width: 100%;
+        height: 130px;
+        margin-left: 50px;
+        
+    }
+
+    h1{
+        display: flex;
+        width: 524px;
+        height: 56px;
+        align-items: center;
+        font-size: 22px;
+    }
+
+    .minha-foto{
+        display: flex;
+        width: 146px;
+        height: 200px;
+    }
+
+    .tela2{
+        display: flex;
+        width: 100%;
+        height: 286px;
+    }
+
+    .content-tela2{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 300px;
+    }
+
+    .tela3{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 590px;
+        gap: 30px;
+        
+   
+    }
+
+    .tela3 h2{
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+
+    }
+
+    .select-image{
+        width: 150px;
+        height:150px;
+    }
+
+    .selection-aba1{
+        display: flex;
+        width: 704px;
+        height: 118px; 
+        margin-bottom: 20px;
+    
+    }
+
+    .selection-aba2{
+        display: flex;
+        width: 704px;
+        height: 118px;
+    }
+
+    .tela4{
+        width: 100%;
+        height: 351px;
+    }
+
+    .tela4 h2{
+        align-items: center;
+        justify-content: end;
+        
+    }
+
+    .alinhar-conteudo{
+        display: flex;
+    }
+
+    .list-formacao{
+        width: 704px;
+        height: 169px;
+        display: flex;
+        align-items: center;
+    }
+
+    .img-formacao{
+        width: 224px;
+        height: 118px;
+    }
+
+    .img-um{
+        width: 224px;
+        height: 169px;
+     
+    }
+
+    .img-dois{
+     width: 224px;
+     height: 169px;
+    }
+    
+    .fundo-experiencia{
+        display: flex;
+        flex-wrap: wrap;
+        width:100%;
+        height: 2017px;
+    }
+
+    .fundo-experiencia h2{
+        margin: auto;
+        align-items: start;     
+    }
+
+    .experiencia1{
+        margin-left:20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .experiencia2{
+        margin-left:20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .experiencia3{
+        margin-left:20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .paragrafo-formacao{
+        display: flex;
+        width: 704px;
+        height: 98px;
+        align-items: center;
+   
+    }
+
+    .paragrafo-formacao h2{
+        text-align: end;
+
+    }
+
+    .imagem-formacao1{
+        width: 704px;
+        height: 320px;
+    }
+
+    .button-formacao{
+        width: 108px;
+        height: 40px;
+    }
+
+    .tela5{
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: flex-start;
+    
+   
+    }
+
+    .imagem{
+        display: none;
+    }
+
+    .ultima{
+        display: flex;
+    }
+
+    .formulario{
+        display: flex;
+        width: 704px;
+        height: 573px;
+        margin: auto;
+    }
+
+}
+
+    footer{
+        display: flex;
+        width: 100%;
+        height: 102px;
+
+    }
+
+    footer h2{
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+
+    @media(max-width:460px){
+
+        body{
+            display: flex;
+            width: 460px;
+            height: 4475px;  
+            overflow-x: hidden; 
+        }
+    
+        .container{
+            width:  460px;
+            height: 56px;
+            margin-left: 20px;
+    
+        }
+    
+        nav ul{
+            display: none;
+        }
+        
+        .meu-nome{
+            display: flex;
+            width: 360px;
+            height: 56px;
+        }
+    
+        .nome-secundario{
+            display: none;
+        }
+        
+    
+        .banner{
+            flex-direction: column-reverse;
+            width: 460px;
+            height: 294px;
+            margin-left: 20px;
+        }
+    
+        .banner-text{
+            display: flex;
+            width: 460px;
+            height: 148px;
+            margin: auto;
+            background-color: re;
+        }
+
+        .ul2{
+            width: 318px;
+            height: 16px;
+            font-size: 14px;
+            flex-wrap: wrap;
+        }
+    
+        .minha-foto{
+            display: flex;
+            width: 98px;
+            height: 98px;
+        }
+    
+        .tela2{
+            display: flex;
+            width: 110%;
+            height: 350px;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .content-tela2{
+            margin: auto;
+            display: flex;
+    
+        }
+
+        .content-tela2 h2{
+            margin: auto;
+        }
+
+        .content-paragrafo2{
+            width: 328px;
+            height: 318px;
+            margin: auto;
+            font-size: 14px;
+        }
+    
+        .tela3{
+            display: flex;
+            width: 460px;
+            height: 1100px;
+            margin-left: 20px;
+            gap: 30px;
+        }
+    
+        .tela3 h2{
+            margin-right: auto;
+            margin-left: auto;
+            text-align: center;
+    
+        }
+
+        .ul3{
+            flex-direction: column;
+        }
+    
+        .select-image{
+            width: 150px;
+            height:118px;
+        }
+    
+        .selection-aba1{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 360px;
+            height: 508px; 
+            margin-bottom: 20px;
+        
+        }
+    
+        .selection-aba2{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 360px;
+            height: 508px; 
+            margin-bottom: 20px;
+        }
+    
+        .tela4{
+            width: 110%;
+            height: 661px;
+        }
+    
+        .tela4 h2{
+            align-items: center;
+            justify-content: end;
+            
+        }
+    
+        .alinhar-conteudo{
+            display: flex;
+        }
+    
+        .list-formacao{
+            display: flex;
+            flex-wrap: wrap;
+            width: 296px;
+            height: 539px;
+
+        }
+    
+        .img-formacao{
+            width: 296px;
+            height: 118px;
+        }
+    
+        .img-um{
+            width: 296px;
+            height: 118px;
+         
+        }
+    
+        .img-dois{
+         width: 296px;
+         height: 118px;
+        }
+        
+        .fundo-experiencia{
+            display: flex;
+            width:100%;
+            height: 1100px;
+            margin: auto;
+            margin-left: 20px;
+
+        }
+    
+        .fundo-experiencia h2{
+            margin: auto;
+
+            align-items: start;     
+        }
+    
+        .experiencia1{
+            margin-left: 60px;
+           width: 296px;
+           height: 91px;
+           display: flex;
+           align-items: center;
+           flex-direction: column;
+        }
+
+        .imagem-formacao1{
+            display: flex;
+            width: 296px;
+            height: 144px;
+
+        }
+    
+        .experiencia2{
+            margin-left:60px;
+            width: 296px;
+            height: 91px;
+             display: flex;
+             align-items: center;
+             flex-direction: column;
+
+        }
+    
+        .experiencia3{
+            margin-left:60px;
+            width: 296px;
+            height: 91px;
+             display: flex;
+             align-items: center;
+             flex-direction: column;
+
+        }
+    
+        .paragrafo-formacao{
+            display: flex;
+            width: 296px;
+            height: 91px;
+            align-items: center;
+    
+        }
+    
+        .paragrafo-formacao h2{
+            text-align: end;
+    
+        }
+    
+        .imagem-formacao1{
+            width: 296px;
+            height: 114px;
+        }
+    
+        .button-formacao{
+            width: 108px;
+            height: 40px;
+        }
+    
+        .tela5{
+            display: flex;
+            width: 110%;
+            height: 657px;
+            justify-content: center;
+            align-items: flex-start;        
+        }
+    
+        .imagem{
+            display: none;
+        }
+    
+        .ultima{
+            display: flex;
+        }
+    
+        .formulario{
+            display: flex;
+            width: 296px;
+            height: 611px;
+            margin: auto;
+        }
+    
+    }
+
+    .campo-botao{
+        margin-bottom: 20px;
+        width: 151px;
+        height: 40px;
+        background-color: #2A7AE4;
+    }
+
+        .campo-texto{
+            width: 296px;
+            height: 56px;
+        }
+
+        .campo-texto2{
+            flex-wrap: wrap;
+            width: 296px;
+            height: 133px;
+        }
+    
+        footer{
+            display: flex;
+            width: 368px;
+            height: 115px;
+            margin-left: 20px;
+    
+        }
+    
+        footer h2{
+            display: flex;
+            width: 234px;
+            height: 38px;
+            font-size: 16px;
+            align-items: center;
+
+        }
+
+    @media(max-width:360px){
+
+        body{
+            display: flex;
+            width: 360px;
+            height: 4475px;  
+            overflow-x: hidden; 
+        }
+    
+        .container{
+            width: 360px;
+            height: 56px;
+            margin-left: 20px;
+    
+        }
+    
+        nav ul{
+            display: none;
+        }
+        
+        .meu-nome{
+            display: flex;
+            width: 360px;
+            height: 56px;
+        }
+    
+        .nome-secundario{
+            display: none;
+        }
+        
+    
+        .banner{
+            flex-direction: column-reverse;
+            width: 360px;
+            height: 294px;
+
+        }
+    
+        .banner-text{
+            display: flex;
+            width: 328px;
+            height: 148px;
+            margin: auto;
+        }
+
+        .ul2{
+            width: 318px;
+            height: 16px;
+            font-size: 14px;
+            flex-wrap: wrap;
+        }
+    
+        .minha-foto{
+            display: flex;
+            width: 98px;
+            height: 98px;
+        }
+    
+        .tela2{
+            display: flex;
+            width: 110%;
+            height: 350px;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .content-tela2{
+            margin: auto;
+            display: flex;
+    
+        }
+
+        .content-tela2 h2{
+            margin: auto;
+        }
+
+        .content-paragrafo2{
+            width: 328px;
+            height: 318px;
+            margin: auto;
+            font-size: 14px;
+        }
+    
+        .tela3{
+            display: flex;
+            width: 360px;
+            height: 1100px;
+            gap: 30px;
+        }
+    
+        .tela3 h2{
+            margin-right: auto;
+            margin-left: auto;
+            text-align: center;
+    
+        }
+
+        .ul3{
+            flex-direction: column;
+        }
+    
+        .select-image{
+            width: 150px;
+            height:118px;
+        }
+    
+        .selection-aba1{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 360px;
+            height: 508px; 
+            margin-bottom: 20px;
+        
+        }
+    
+        .selection-aba2{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 360px;
+            height: 508px; 
+            margin-bottom: 20px;
+        }
+    
+        .tela4{
+            width: 110%;
+            height: 661px;
+        }
+    
+        .tela4 h2{
+            align-items: center;
+            justify-content: end;
+            
+        }
+    
+        .alinhar-conteudo{
+            display: flex;
+        }
+    
+        .list-formacao{
+            display: flex;
+            flex-wrap: wrap;
+            width: 296px;
+            height: 539px;
+
+        }
+    
+        .img-formacao{
+            width: 296px;
+            height: 118px;
+        }
+    
+        .img-um{
+            width: 296px;
+            height: 118px;
+         
+        }
+    
+        .img-dois{
+         width: 296px;
+         height: 118px;
+        }
+        
+        .fundo-experiencia{
+            display: flex;
+            width:100%;
+            height: 1100px;
+            margin: auto;
+            margin-left: 20px;
+        }
+    
+        .fundo-experiencia h2{
+            margin: auto;
+            align-items: start;     
+        }
+    
+        .experiencia1{
+            margin-left:20px;
+           width: 296px;
+           height: 91px;
+           display: flex;
+           align-items: center;
+           flex-direction: column;
+        }
+
+        .imagem-formacao1{
+            display: flex;
+            width: 296px;
+            height: 144px;
+
+        }
+    
+        .experiencia2{
+            margin-left:20px;
+            width: 296px;
+            height: 91px;
+             display: flex;
+             align-items: center;
+             flex-direction: column;
+
+        }
+    
+        .experiencia3{
+            margin-left:20px;
+            width: 296px;
+            height: 91px;
+             display: flex;
+             align-items: center;
+             flex-direction: column;
+
+        }
+    
+        .paragrafo-formacao{
+            display: flex;
+            width: 296px;
+            height: 91px;
+            align-items: center;
+    
+        }
+    
+        .paragrafo-formacao h2{
+            text-align: end;
+    
+        }
+    
+        .imagem-formacao1{
+            width: 296px;
+            height: 114px;
+        }
+    
+        .button-formacao{
+            width: 108px;
+            height: 40px;
+        }
+    
+        .tela5{
+            display: flex;
+            width: 110%;
+            height: 657px;
+            justify-content: center;
+            align-items: flex-start;        
+        }
+    
+        .imagem{
+            display: none;
+        }
+    
+        .ultima{
+            display: flex;
+        }
+    
+        .formulario{
+            display: flex;
+            width: 296px;
+            height: 611px;
+            margin: auto;
+        }
+    
+    }
+
+    .campo-botao{
+        margin-bottom: 20px;
+        width: 151px;
+        height: 40px;
+        background-color: #2A7AE4;
+    }
+
+        .campo-texto{
+            width: 296px;
+            height: 56px;
+        }
+
+        .campo-texto2{
+            flex-wrap: wrap;
+            width: 296px;
+            height: 133px;
+        }
+    
+        footer{
+            display: flex;
+            width: 360px;
+            height: 360px;
+            height: 102px;
+            margin: auto;
+    
+        }
+    
+        footer h2{
+            display: flex;
+            width: 234px;
+            height: 38px;
+            font-size: 16px;
+            align-items: center;
+
+        }
+
+    
+    
