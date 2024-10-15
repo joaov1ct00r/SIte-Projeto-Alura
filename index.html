@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Website html css e javascript</title>
+    <script>
+        function exibeAlert(){
+    alert("Obrigado pelo cadastro em breve entrarei em contato!")
+}
+    </script>
 </head>
 <body>
-    <header>
+    <header id="header">
         <div class="container">
             <nav>
                 <div class="meu-nome">
@@ -28,7 +33,7 @@
                 <div class="banner-text">
                     <h1 id="sobre-mim">Olá! Meu nome é João Victor <br>
                         E Desenvolvo Websites.</h1>
-                    <p class="paragrafo">olá seja bem vindo ao meu primeiro site que foi um desafio proposto pela alura como um challenger do projeto oracle one com especialização front-end na qual eu decidi fazer</p>
+                    <p class="paragrafo">Olá seja bem vindo ao meu primeiro site que foi um desafio proposto pela alura como um challenger do projeto oracle one com especialização na aréa front-end</p>
                     <div class="list-container">
                         <ul class="ul2">
                             <li class="link-cont"><a class="alinhar-link" href="https://github.com/joaov1ct00r">Github<img src="arrow_back_black_24dp 1.png" alt="seta"></a></li>
@@ -50,7 +55,7 @@
             <h2 class="title-sobre-mim">Sobre mim</h2>
             <div class="content-paragrafo2">
             <p></p><br>
-            <p>Me Chamo joão Victor tenho 18 anos sou estudante de analise e desenvolvimento de sistemas cursando o 2° Semestre.<br>
+            <p>Me Chamo joão Victor tenho 19 anos sou estudante de analise e desenvolvimento de sistemas cursando o 2° Semestre.<br>
                 Atualmente sou estagiario de informatica no Centro de processamento de dados Da Prefeitura Municipal de Itaquaquecetuba.<br>gosto muito de aprender novas linguagens e sempre estou estudando mais um pouco , e com isso estou inserido no bootcamp de programação da oracle + alura com foco em proramação front-end.
             </p>
         </div>
@@ -148,7 +153,7 @@
                         <input type="text" placeholder="Insira o seu E-mail" campo-texto class="campo-texto">
                         <input type="text" placeholder="informe o assunto" campo-texto class="campo-texto">
                         <input type="text" placeholder="Mensagem" class="campo-texto2">
-                        <input type="button" value="enviar" class="campo-botao">
+                        <button onclick="exibeAlert()" class="button-formacao">Enviar</button>
                     </div>
                 </div>
         </section>

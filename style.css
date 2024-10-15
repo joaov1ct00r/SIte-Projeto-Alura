@@ -41,6 +41,7 @@ p{
 }
 
 
+
 nav{
     display: flex;
     margin: auto;
@@ -52,7 +53,9 @@ nav{
     display: flex;
     align-items: start;
     margin-right: 90px;
+
 }
+
 
 nav ul{
     display: flex;
@@ -66,8 +69,23 @@ nav ul a{
     margin: 0 25px;
     text-transform: uppercase;
     font-size: 14px;
-    
-    
+    position: relative;
+}
+
+nav a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: #2A7AE4;
+    position: absolute;
+    margin-bottom: -5px;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+nav a:hover::after{
+    width: 100%;
 }
 
 .banner {
@@ -283,15 +301,30 @@ nav ul a{
     border:none;
     border-radius:8px;
     font-weight: bold;
-    cursor: pointer;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1) ;
-    transition: background-color 0.3 ease;
+    cursor:pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition:0.3 ease;
     background-color:white;
+    text-decoration: none;
     
+}
+
+.button-formacao a{
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+}
+
+.button-formacao:hover a{
+    color: white;
 }
 
 .button-formacao:hover {
     background-color: #2A7AE4;
+}
+
+.button-formacao:hover{
+    color: #F5F5F5;
 }
 
 .tela5{
@@ -321,6 +354,7 @@ nav ul a{
     height: 56px;
     border-radius: 4px;
     background-color: white;
+    border-color: #2A7AE4;
 }
 
 .campo-texto2{
@@ -333,6 +367,7 @@ nav ul a{
 .campo-botao{
     width: 165px;
     height: 51px;
+    color: black;
     background-color: #2A7AE4;
 }
 
@@ -353,8 +388,9 @@ nav ul a{
     }
 
     .container{
-        width: 100%;
+        width: 768px;
         height: 56px;
+
 
     }
 
@@ -363,11 +399,12 @@ nav ul a{
     }
     
     .meu-nome{
-        width: 768px;
+        width: 700px;
         height: 52px;
         margin: auto;
         justify-content: space-between;
         align-items: center;
+
     }
 
     .nome-secundario{
@@ -404,8 +441,9 @@ nav ul a{
 
     .tela2{
         display: flex;
-        width: 100%;
+        width: 768px;
         height: 286px;
+        
     }
 
     .content-tela2{
@@ -413,7 +451,7 @@ nav ul a{
         align-items: start;
         justify-content: center;
         flex-direction: column;
-        margin-right: 300px;
+        margin-right: 150px;
     }
 
     .tela3{
@@ -568,7 +606,7 @@ nav ul a{
         display: flex;
         width: 704px;
         height: 573px;
-        margin: auto;
+
     }
 
 }
@@ -641,8 +679,8 @@ nav ul a{
     
         .minha-foto{
             display: flex;
-            width: 98px;
-            height: 98px;
+            width: 150px;
+            height: 160px;
         }
     
         .tela2{
@@ -940,8 +978,8 @@ nav ul a{
     
         .minha-foto{
             display: flex;
-            width: 98px;
-            height: 98px;
+            width: 120px;
+            height: 140px;
         }
     
         .tela2{
@@ -1151,18 +1189,21 @@ nav ul a{
         margin-bottom: 20px;
         width: 151px;
         height: 40px;
+        color: black;
         background-color: #2A7AE4;
     }
 
         .campo-texto{
             width: 296px;
             height: 56px;
+            border-color: #2A7AE4;
         }
 
         .campo-texto2{
             flex-wrap: wrap;
             width: 296px;
             height: 133px;
+            border-color: #2A7AE4;
         }
     
         footer{
