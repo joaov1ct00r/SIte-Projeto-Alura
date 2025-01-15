@@ -9,7 +9,8 @@
 }
 
 body{
-    background-color: #F5F5F5;
+    width: 100%;
+    height: 300vh;
     display: flex;
     flex-direction: column;
 }
@@ -281,7 +282,7 @@ nav a:hover::after{
 }
 
 .fundo-experiencia{
-    height: 250vh;
+    height: 350vh;
     justify-content: space-between;
     gap: 10px;
 }
@@ -373,13 +374,8 @@ nav a:hover::after{
     background-color: #eaf2fd;
 }
 
-.ultima{
-    display: flex;
-    width:1136px;
-    height: 600px;
-    margin: auto;
-    gap: 16px;
-    
+.forms{
+    margin-top: 20px;
 }
 
 .formulario{
@@ -389,10 +385,8 @@ nav a:hover::after{
     border: solid 2px black;
     border-radius: 20px;
     margin: auto;
-    width: 656px;
-    height: 596px;
+    width: 600px;
     align-items: center;
-    justify-content: space-between;
     flex-direction: column;
 }
 
@@ -466,13 +460,12 @@ input#enviar:hover {
     .container{
         width: 100%;
         height: 56px;
+    
+
 
 
     }
 
-    nav ul{
-        display: none;
-    }
     
     .meu-nome{
         width: 700px;
@@ -707,18 +700,22 @@ input#enviar:hover {
             overflow-x: hidden; 
         }
     
+        header{ 
+            display: none;
+        }
         .container{
-            display: flex;
+            display: none;
             width:  100%;
             height: 56px;
         }
 
         .container p{
-            width: 100%;
+            width: 10%;
+
         }
     
         nav ul{
-            display: none;
+           display: none;
         }
         
         .meu-nome{
